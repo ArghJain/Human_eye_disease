@@ -1,7 +1,7 @@
-tensorflow==2.15.1
-numpy==1.24.3
-pandas==2.0.3
+tensorflow==2.18.1
+numpy==1.26.4  # Required for TF 2.18+
+pandas==2.2.1
 streamlit==1.32.0
-pillow==10.1.0
-protobuf==3.20.3  # Required for TensorFlow compatibility
-h5py==3.10.0      # For model serialization
+pillow==10.2.0
+protobuf==4.25.3  # Required for TF 2.18+
+h5py==3.11.0
